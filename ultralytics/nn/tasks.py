@@ -9,6 +9,17 @@ from pathlib import Path
 
 import torch
 
+#
+from ultralytics.nn.backbone import (
+    Mlp,
+    WindowAttention,
+    SwinTransformerBlock,
+    PatchMerging,
+    BasicLayer,
+    PatchEmbed,
+    SwinTransformer,
+)
+
 from ultralytics.nn.modules import (
     AIFI,
     C1,
